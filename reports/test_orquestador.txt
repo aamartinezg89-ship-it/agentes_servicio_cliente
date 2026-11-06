@@ -1,0 +1,12 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.16, pytest-9.1.1, pluggy-1.7.0 -- /opt/anaconda3/envs/agentes-servicio-cliente/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/adrianmartinez/PycharmProjects/agentes_servicio_cliente
+plugins: anyio-4.15.1
+collecting ... collected 3 items
+
+tests/test_orquestador.py::test_escala_con_consentimiento PASSED         [ 33%]
+tests/test_orquestador.py::test_cliente_pide_gerente PASSED              [ 66%]
+tests/test_orquestador.py::test_gerente_no_vuelve_a_transferir PASSED    [100%]
+
+============================== 3 passed in 0.04s ===============================
